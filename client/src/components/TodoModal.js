@@ -81,7 +81,7 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
           todo.date !== date
         ) {
           dispatch(updateTodo({ ...todo, name, staffno, date }));
-          toast.success('Task Updated successfully');
+          toast.success('Employee Updated successfully');
         } else {
           toast.error('No changes made');
           return;
