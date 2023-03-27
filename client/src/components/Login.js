@@ -80,14 +80,14 @@ export default function Login({ setToken }) {
               </button>
             </div>
 
-            <div className="text-center py-4">
+            {/* <div className="text-center py-4">
               <span className="text-gray-500">
                 Not a Member{' '}
                 <Link className="text-red-500" to="/register">
                   Register Now
                 </Link>
               </span>
-            </div>
+            </div> */}
           </form>
         </div>
       </div>
